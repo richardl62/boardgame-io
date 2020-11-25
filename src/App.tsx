@@ -5,7 +5,7 @@ import { Local, SocketIO } from 'boardgame.io/multiplayer';
 import { TicTacToe } from './game';
 import { TicTacToeBoard } from './board';
 
-const local = true;
+const local = false;
 
 const TicTacToeClient = Client({
   game: TicTacToe,

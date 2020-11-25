@@ -1,6 +1,6 @@
 import React from 'react';
 
-export function TicTacToeBoard(props: any) {
+function TicTacToeBoard(props: any) {
   const onClick = (id: string) => {
     props.moves.clickCell(id);
   }
@@ -47,3 +47,5 @@ export function TicTacToeBoard(props: any) {
     </div>
   );
 }
+
+export { TicTacToeBoard }
